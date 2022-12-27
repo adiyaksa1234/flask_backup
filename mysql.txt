@@ -1,0 +1,6 @@
+
+--> Insert hash
+INSERT INTO user (username, password, email) VALUES ('john', PASSWORD('mypassword'), "adiyaksa350@gmail.com");
+
+--> Select hash
+SELECT * FROM user WHERE username='john' AND password=PASSWORD('mypassword');
